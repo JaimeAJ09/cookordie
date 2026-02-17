@@ -24,3 +24,41 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+html,
+body{
+  font-family: var(--font-fraunces);
+  font-weight: 400;
+}
+
+h1,h2,h3,h4{
+  font-weight: 700;
+}
+
+@layer base{
+  .font-fraunces{
+    font-family: var(--font-fraunces);
+  }
+}
+
+@layer base{
+  body {
+    font-family: var(--font-fraunces);
+    font-weight: 400;
+  }
+}
+
+@keyframes scrollPartners {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  display: flex;
+  width: max-content;
+  animation: scrollPartners 40s linear infinite;
+}

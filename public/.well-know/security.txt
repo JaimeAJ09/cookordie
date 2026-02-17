@@ -1,0 +1,4 @@
+Contact: mailto:info@cookordie.com
+Preferred-Languages: es, en
+Canonical: https://cookordiebakery.com/.well-known/security.txt
+Policy: https://cookordiebakery.com

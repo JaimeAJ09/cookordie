@@ -1,0 +1,17 @@
+/* TEAM */
+Founder: Jaime Álvarez Jiménez
+Cheesecake Maker: Emilio
+Brand: Cookordie
+Location: Spain
+
+/* SITE */
+Site Name: Cookordie
+Description: Cheesecakes without fear. No postureo. No filters.
+Language: Spanish / English
+Desing & Development: Jaime Álvarez Jiménez
+Framework: Next.js
+Styling: Tailwind CSS
+
+/* CONTACT */
+Instagram: https://www.instagram.com/cookordie
+Web: https://cookordie.com
