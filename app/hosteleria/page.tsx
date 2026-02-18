@@ -201,7 +201,7 @@ export default function Hosteleria() {
             </ul>
           </div>
       {/*IMAGEN*/}
-          <div className='relative mx-auto w-full w-[315px] md:w-[450px] h-[270px] md:h-[360px] rounded-3xl overflow-hidden bg-gray-200 shadow-2xl'>
+          <div className='relative mx-auto w-full md:w-[450px] h-[270px] md:h-[360px] rounded-3xl overflow-hidden bg-gray-200 shadow-2xl'>
             {/*AQUI VA LA IMAGEN*/}
               <Image src="/hosteleria/para-ti2.png" fill className='object-fill' alt="" />
           </div>
