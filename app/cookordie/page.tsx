@@ -22,7 +22,7 @@ Es una forma de entender la tarta de queso.`,
       `Cocinero, perfeccionista hasta el extremo.
 De los que no daban un plato por terminado hasta que todo tenía sentido.
 Tenía talento, criterio y un futuro enorme por delante.`,
-      'Murió con 27 años.',
+      'Falleció con 27 años.',
       `Esta marca es un homenaje, no una historia triste.
 Es una forma de mantener vivo ese nivel de exigencia.
 De no sacar nada que no esté a la altura.

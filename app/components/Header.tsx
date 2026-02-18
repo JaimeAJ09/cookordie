@@ -15,7 +15,7 @@ export default function Header() {
       nav: {
         cakes: 'Las Tartas',
         story: 'La Historia',
-        hospitality: 'Para Bares Valientes',
+        hospitality: 'Para Profesionales Valientes',
         brownies: 'Brownies',
       },
     },
@@ -23,7 +23,7 @@ export default function Header() {
       nav: {
         cakes: 'The Cakes',
         story: 'The Story',
-        hospitality: 'For Brave Bars',
+        hospitality: 'For Brave Professionals',
         brownies: 'Brownies',
       },
     },

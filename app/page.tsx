@@ -54,7 +54,7 @@ export default function Home() {
 
       manifestoTitle: 'Esto no va de postres.',
       manifestoText:
-        'Va de obsesión por el detalle. De recetas que no copiamos. De probar, fallar, ajustar y repetir hasta que es perfecto. Va de personalidad. Y de no hacer nada que no nos comeríamos nosotros.',
+        'Va de obsesión por el detalle. De recetas que no copiamos. De probar, fallar, ajustar y repetir hasta que sea perfecto. Va de personalidad. Y de no hacer nada que no nos comeríamos nosotros.',
 
       cakesTitle: 'Nuestras tartas',
 
