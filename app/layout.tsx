@@ -33,6 +33,13 @@ export default function RootLayout({
 }
   return (
     <html lang="es" className={fraunces.variable}>
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <meta httpEquiv="x-dns-prefetch-control" content="on" />
+        <link rel="dns-prefetch" href="//cookordiebakery.com" />
+        <link rel="preconnect" href="https://cookordiebakery.com" crossOrigin="" />
+        <link rel="preconnect" href="https://www.cookordiebakery.com" crossOrigin="" />
+      </head>
       <body className={fraunces.variable}>
         <script
         type="application/ld+json"

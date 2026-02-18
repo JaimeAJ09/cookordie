@@ -1,6 +1,6 @@
 import type { NextConfig } from "next";
 
-const nextConfig = {
+const NextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
   compress: true,
@@ -12,5 +12,5 @@ const nextConfig = {
   },
 };
 
-export default nextConfig;
+export default NextConfig;
 
