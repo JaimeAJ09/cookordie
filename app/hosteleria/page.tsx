@@ -201,7 +201,7 @@ export default function Hosteleria() {
             </ul>
           </div>
       {/*IMAGEN*/}
-          <div className='relative mx-auto w-full w-[315px] md:w-[450px] h-[150px] md:h-[360px] rounded-3xl overflow-hidden bg-gray-200 shadow-2xl'>
+          <div className='relative mx-auto w-full w-[315px] md:w-[450px] h-[270px] md:h-[360px] rounded-3xl overflow-hidden bg-gray-200 shadow-2xl'>
             {/*AQUI VA LA IMAGEN*/}
               <Image src="/hosteleria/para-ti2.png" fill className='object-fill' alt="" />
           </div>
@@ -212,7 +212,7 @@ export default function Hosteleria() {
       <section className="px-6 md:px-20 py-24 pt-0">
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-16 items-center'>
           {/*IMAGEN (En Desktop va a la izquierda) */}
-          <div className='relative mx-auto w-full md:w-[450px] h-[370px] md:h-[360px] rounded-3xl overflow-hidden bg-gray-200 order-2 lgorder-1 shadow-2xl'>
+          <div className='relative mx-auto w-full md:w-[450px] h-[270px] md:h-[360px] rounded-3xl overflow-hidden bg-gray-200 order-2 lgorder-1 shadow-2xl'>
             {/*AQUI VA LA IMAGEN*/}
             <Image src="/hosteleria/no-para-ti.png" fill className="object-fill" alt="" />
           </div>
