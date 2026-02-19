@@ -135,14 +135,14 @@ export default function BrownieClient({ brownie, slug }: Props) {
               href="/cookordie"
               className="inline-flex items-center justify-center px-6 py-3 border border-black/20 rounded-full text-sm font-medium bg-gray-800 hover:bg-[#8C1D18]/95 hover:text-white transition"
             >
-              {lang === 'es' ? 'Conoce la historia' : 'Our story'}
+              {lang === 'es' ? 'Nuestra historia' : 'Our story'}
             </Link>
 
             <Link
               href="/hosteleria"
               className="inline-flex items-center justify-center px-6 py-3 border border-black/20 rounded-full text-sm font-medium bg-gray-800 hover:bg-[#8C1D18]/95 hover:text-white transition"
             >
-              {lang === 'es' ? 'Para bares valientes' : 'For restaurants'}
+              {lang === 'es' ? 'Partners' : 'Partners'}
             </Link>
           </div>
 
