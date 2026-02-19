@@ -42,7 +42,7 @@ export default function TartaClient({ tarta, slug }: Props) {
     onlyHospitality: 'Sólo bares y restaurantes.',
     minOrder: '(Pedido mínimo de 10)',
     historyCta: 'Conoce la historia',
-    hospitalityCta: 'Para bares valientes',
+    hospitalityCta: 'Partners',
     currency: '€',
     /*COPY CTA PEDIDO*/
     orderButton: 'Haz tu pedido por WhatsApp',
@@ -57,7 +57,7 @@ export default function TartaClient({ tarta, slug }: Props) {
     onlyHospitality: 'Only for bars and restaurants.',
     minOrder: '(Minimum order of 10)',
     historyCta: 'Discover the story',
-    hospitalityCta: 'For brave bars',
+    hospitalityCta: 'Partners',
     currency: '€',
     /*COPY CTA PEDIDO*/
     orderButton: 'Order via WhatsApp',
