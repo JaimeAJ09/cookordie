@@ -39,7 +39,8 @@ Solo se queda lo que volveríamos a comer sin pensar.`,
 
     closing: `Cookordie no es para todos.
 Y eso está bien.`,
-    ctaVer: `Ver las tartas`,
+    ctaTartas: `Ver nuestras Cheesecakes`,
+    ctaBrownies: `Ver nuestros Brownies`,
 },
 
   en: {
@@ -71,7 +72,8 @@ Only what we’d eat again without thinking makes the cut.`,
     closing: `Cookordie is not for everyone.
 And that’s perfectly fine.`,
     
-    ctaVer: `See the cakes`,
+    ctaTartas: `See our Cheesecakes`,
+    ctaBrownies:`See our Brownies`,
 },
 };
 
@@ -118,7 +120,14 @@ And that’s perfectly fine.`,
               href="/tartas"
               className="inline-flex items-center px-7 py-3 border border-black/20 rounded-full text-sm font-medium bg-[#1A1A1A] hover:bg-[#8C1D18]/95 text-[#FFF7EC] transition"
             >
-              {copy[lang].ctaVer}
+              {copy[lang].ctaTartas}
+            </Link>
+
+            <Link
+              href="/brownies"
+              className="inline-flex items-center px-7 py-3 border border-black/20 rounded-full text-sm font-medium bg-[#1A1A1A] hover:bg-[#8C1D18]/95 text-[#FFF7EC] transition"
+            >
+              {copy[lang].ctaBrownies}
             </Link>
           </div>
 
