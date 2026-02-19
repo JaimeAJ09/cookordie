@@ -85,8 +85,8 @@ export default function TartasPage() {
 
   const copy = {
     es: {
-      title: 'Las Tartas',
-      intro: 'Cada una tiene su personalidad. Todas tienen mala intención.',
+      title: 'Nuestras Cheesecakes',
+      //intro: 'Cada una tiene su personalidad. Todas tienen mala intención.',
       cakes: [
         {
           slug: 'nivel-dios',
@@ -137,8 +137,8 @@ export default function TartasPage() {
     },
 
     en: {
-      title: 'The Cakes',
-      intro: 'Each one has its own personality. All of them have bad intentions.',
+      title: 'Our Cheesecakes',
+      //intro: 'Each one has its own personality. All of them have bad intentions.',
       cakes: [
         {
           slug: 'nivel-dios',
@@ -211,9 +211,9 @@ export default function TartasPage() {
         {copy[lang].title}
       </h1>
 
-      <p className="max-w-2xl text-lg mb-16 opacity-80 text-black">
+      {/*<p className="max-w-2xl text-lg mb-16 opacity-80 text-black">
         {copy[lang].intro}
-      </p>
+      </p>*/}
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
         {copy[lang].cakes.map((tarta) => (
@@ -224,10 +224,7 @@ export default function TartasPage() {
           >
             <div className="bg-white rounded-3xl overflow-hidden shadow-sm transition-all duration-300 group-hover:shadow-2xl group-hover:-translate-y-1">
               
-              {/* IMAGEN DE LA TARTA */}
-              {/* Aquí irá la imagen real: */}
-                 {/* <Image src={`/tartas/${tarta.slug}.jpg`} ... />*/}
-              
+              {/* CONTENEDOR IMAGEN DE LA TARTA */}
               <div className="relative w-full h-64 overflow-hidden">
                 {/* IMAGEN DE LA TARTA */}
                 <Image

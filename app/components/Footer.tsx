@@ -17,10 +17,10 @@ export default function Footer() {
         'Sin miedo.',
       ],
       nav: {
-        cakes: 'Las Tartas',
-        story: 'La Historia',
+        cakes: 'Nuestras Cheesecakes',
+        story: 'Nuestra Historia',
         hospitality: 'Hostelería',
-        brownies: 'Brownies',
+        brownies: 'Nuestros Brownies',
       },
         legal: {
           legalNotice: 'Aviso legal',
@@ -35,10 +35,10 @@ export default function Footer() {
         'No fear.',
       ],
       nav: {
-        cakes: 'The Cakes',
-        story: 'The Story',
+        cakes: 'Our Cheesecakes',
+        story: 'Our Story',
         hospitality: 'Hospitality',
-        brownies: 'Brownies',
+        brownies: 'Our Brownies',
       },
         legal: {
           legalNotice: 'Legal notice',

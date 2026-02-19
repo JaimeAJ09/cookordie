@@ -17,20 +17,11 @@ const copy = {
 Es una forma de entender la tarta de queso.`,
 
     manifesto: [
-      'No hacemos versiones. No seguimos tendencias. No copiamos recetas ajenas.',
-      'Cookordie existe por Javier Jiménez.',
-      `Cocinero, perfeccionista hasta el extremo.
-De los que no daban un plato por terminado hasta que todo tenía sentido.
-Tenía talento, criterio y un futuro enorme por delante.`,
+      'Cookordie existe gracias a Javier Jiménez. Cocinero y perfeccionista. No daba por terminada una receta hasta no sentir que todo tenía sentido.',
+      'Tenía talento, mucho criterio y un futuro brillante por delante.',
       'Falleció con 27 años.',
-      `Esta marca es un homenaje, no una historia triste.
-Es una forma de mantener vivo ese nivel de exigencia.
-De no sacar nada que no esté a la altura.
-De no conformarse nunca con “vale”.`,
-      `Cookordie no va de nostalgia.
-Va de respeto por la cocina hecha con cabeza, obsesión y honestidad.`,
-      `Y cuando algo entra en la carta, se queda porque aguanta el tiempo,
-no porque funcione en Instagram.`,
+      'Esta marca es nuestro homenaje. Hoy Javi no está, pero su recuerdo sigue vivo en cada tarta que elaboramos.',
+      'Su pasión, su entrega y su alegría por juntar a la gente nos impulsaron a crear este proyecto. Hoy, continuamos su sueño: poner el corazón en lo que hacemos, celebrar la vida, saborear cada instante y compartirlo con quienes más queremos.',
       '¡Va por ti Javi!',
     ],
 
@@ -57,21 +48,12 @@ Y eso está bien.`,
 It’s a way of understanding cheesecake.`,
 
     manifesto: [
-      'We don’t do versions. We don’t follow trends. We don’t copy other people’s recipes.',
-      'Cookordie exists because of Javier Jiménez.',
-      `A chef. A perfectionist to the extreme.
-Someone who never considered a dish finished until everything made sense.
-He had talent, judgement, and a huge future ahead of him.`,
+      'Cookordie exists thanks to Javier Jiménez. A cook and a perfectionist. He never considered a recipe finished until he felt everything made sense.',
+      'He had talent, strong judgment, and a bright future ahead of him.',
       'He passed away at 27.',
-      `This brand is a tribute, not a sad story.
-A way to keep that level of demand alive.
-Of never releasing anything that doesn’t live up to it.
-Of never settling for “good enough”.`,
-      `Cookordie is not about nostalgia.
-It’s about respect for cooking done with clarity, obsession and honesty.`,
-      `And when something makes it onto the menu, it stays because it stands the test of time,
-not because it works on Instagram.`,
-      'This one’s for you, Javi.',
+      'This brand is our tribute. Today Javi is not here, but his memory lives on in every cake we make.',
+      'His passion, dedication, and joy in bringing people together inspired us to create this project. Today, we continue his dream: to put our heart into what we do, celebrate life, savor every moment, and share it with those we love most.',
+      'This one’s for you, Javi!',
     ],
 
     work: {

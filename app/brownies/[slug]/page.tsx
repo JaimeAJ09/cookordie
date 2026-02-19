@@ -7,7 +7,7 @@ const brownies = {
       nombre: 'Brownie Clásico',
       subtitulo: 'Chocolate serio.',
       descripcion:
-        'Chocolate intenso, interior húmedo y corte limpio. Sin toppings innecesarios ni distracciones. Solo un brownie bien hecho.',
+        'Chocolate intenso con corazón cremoso que se derrite en cada mordisco.',
       perfil: ['Intenso', 'Húmedo', 'Puro chocolate', 'Directo'],
       precios: {
         bandeja12: 30,
@@ -18,7 +18,7 @@ const brownies = {
       nombre: 'Classic Brownie',
       subtitulo: 'Serious chocolate.',
       descripcion:
-        'Deep chocolate flavor, fudgy center and a clean cut. No unnecessary toppings. Just a properly made brownie.',
+        'Intense chocolate with a creamy center that melts in every bite.',
       perfil: ['Intense', 'Fudgy', 'Pure chocolate', 'Straightforward'],
       precios: {
         bandeja12: 30,
@@ -32,7 +32,7 @@ const brownies = {
       nombre: 'Blondie Oreo',
       subtitulo: 'Peligrosamente adictivo.',
       descripcion:
-        'Masa de mantequilla dorada con trozos de Oreo en el interior. Dulce, suave y sorprendentemente equilibrado.',
+        'Cremoso de vainilla y chocolate blanco con trozos de galleta Oreo, suave y jugoso en cada bocado.',
       perfil: ['Dulce', 'Cremoso', 'Adictivo', 'Suave'],
       precios: {
         bandeja12: 35,
@@ -43,7 +43,7 @@ const brownies = {
       nombre: 'Blondie Oreo',
       subtitulo: 'Dangerously addictive.',
       descripcion:
-        'Golden butter dough filled with Oreo chunks. Sweet, soft and surprisingly balanced.',
+        'Creamy vanilla and white chocolate with chunks of Oreo cookie, soft and moist in every bite.',
       perfil: ['Sweet', 'Creamy', 'Addictive', 'Soft'],
       precios: {
         bandeja12: 35,
@@ -57,7 +57,7 @@ const brownies = {
       nombre: 'Blondie Lotus',
       subtitulo: 'Dulce sin pedir perdón.',
       descripcion:
-        'Blondie de mantequilla con crema de Lotus fundida en la masa. Goloso pero elegante.',
+        'Blondie suave relleno de crema Lotus y trozos crujientes de galleta, con un corazón que se derrite en la boca.',
       perfil: ['Goloso', 'Mantequilla', 'Suave', 'Reconfortante'],
       precios: {
         bandeja12: 35,
@@ -68,7 +68,7 @@ const brownies = {
       nombre: 'Blondie Lotus',
       subtitulo: 'Sweet without apologies.',
       descripcion:
-        'Butter blondie with melted Lotus cream inside. Indulgent yet elegant.',
+        'Soft blondie filled with Lotus cream and crunchy biscuit pieces, with a heart that melts in your mouth.',
       perfil: ['Indulgent', 'Buttery', 'Soft', 'Comforting'],
       precios: {
         bandeja12: 35,
@@ -82,7 +82,7 @@ const brownies = {
       nombre: 'Brookie',
       subtitulo: 'La decisión imposible.',
       descripcion:
-        'Mitad brownie, mitad cookie. Crujiente por fuera, húmedo por dentro. El híbrido definitivo.',
+        'Crujiente por fuera, suave por dentro y con un corazón de chocolate que te hará querer más.',
       perfil: ['Crujiente', 'Húmedo', 'Equilibrado', 'Potente'],
       precios: {
         bandeja12: 38,
@@ -93,7 +93,7 @@ const brownies = {
       nombre: 'Brookie',
       subtitulo: 'The impossible choice.',
       descripcion:
-        'Half brownie, half cookie. Crispy outside, fudgy inside. The ultimate hybrid.',
+        'Crispy on the outside, soft on the inside, with a chocolate center that will make you want more.',
       perfil: ['Crunchy', 'Fudgy', 'Balanced', 'Rich'],
       precios: {
         bandeja12: 38,

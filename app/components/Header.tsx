@@ -13,18 +13,18 @@ export default function Header() {
   const copy = {
     es: {
       nav: {
-        cakes: 'Las Tartas',
-        story: 'La Historia',
-        hospitality: 'Para Profesionales Valientes',
-        brownies: 'Brownies',
+        cakes: 'Nuestras Cheesecakes',
+        story: 'Nuestra Historia',
+        hospitality: 'Partners',
+        brownies: 'Nuestros Brownies',
       },
     },
     en: {
       nav: {
-        cakes: 'The Cakes',
-        story: 'The Story',
-        hospitality: 'For Brave Professionals',
-        brownies: 'Brownies',
+        cakes: 'Our Cheesecakes',
+        story: 'Our Story',
+        hospitality: 'Partners',
+        brownies: 'Our Brownies',
       },
     },
   };

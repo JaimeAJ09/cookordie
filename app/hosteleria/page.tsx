@@ -82,10 +82,11 @@ export default function Hosteleria() {
 
   const copy = {
     es: {
-      heroTitle: 'No trabajamos con cualquiera.',
-      heroText:
-        'Cookordie está pensado para bares y restaurantes que saben lo que quieren servir. Y lo que no.',
-
+      heroTitle: 'Sabemos que se llega más lejos con buena compañía.',
+      heroSubtitle:
+        'Por eso, nuestros partners están siempre muy bien acompañados.',
+      heroText: 'En Cookordie trabajamos de la mano con restaurantes, cafeterías y hoteles para llevar nuestras cheesecakes y postres a quienes buscan un producto exquisito. Cada tarta está hecha con ingredientes seleccionados, con atención al detalle y con la pasión que nos caracteriza.',
+        
       yesTitle: 'Esto es para ti si…',
       yesList: [
         'Te importa más el criterio que el margen rápido.',
@@ -104,14 +105,14 @@ export default function Hosteleria() {
 
       howTitle: 'Cómo trabajamos',
       howText1:
-        'Trabajamos con una selección cerrada de tartas. Podemos personalizar recetas y adaptar sabores a la carta de cada local. Nos gusta crear.',
+        'Colaborar con nosotros significa contar con productos que combinan tradición, creatividad y el auténtico sabor de Canarias. Seleccionamos cuidadosamente cada una de nuestras tartas para ofrecer solo lo mejor.',
       howText2:
-        'Si una tarta entra en tu carta, entra tal y como fue pensada. Porque funciona. Y porque no necesita retoques.',
+        'Además, podemos personalizar recetas y adaptar sabores a la carta de tu local, porque nos encanta crear y sorprender.',
 
       expectTitle: 'Qué puedes esperar',
-      expectText1: 'Regularidad. Estabilidad. Producto reconocible.',
+      expectText1: 'Consistencia en cada pedido. Calidad y sabor reconocibles.',
       expectText2:
-        'Y la tranquilidad de servir algo que podrías defender sin explicaciones.',
+        'Tranquilidad al servir un producto que sabes que funciona, porque ha sido pensado para sorprender.',
 
       closeTitle: 'Si todo esto te encaja, hablamos.',
       closeText:
@@ -120,9 +121,11 @@ export default function Hosteleria() {
     },
 
     en: {
-      heroTitle: 'We don’t work with just anyone.',
-      heroText:
-        'Cookordie is designed for bars and restaurants that know what they want to serve. And what they don’t.',
+      heroTitle: 'We know you go further with good company.',
+      heroSubtitle:
+        'That’s why our partners are always in great company.',
+      heroText: 'At Cookordie we work hand in hand with restaurants, cafés, and hotels to bring our cheesecakes and desserts to those looking for an exquisite product. Every cake is made with carefully selected ingredients, attention to detail, and the passion that defines us.',
+
 
       yesTitle: 'This is for you if…',
       yesList: [
@@ -142,14 +145,14 @@ export default function Hosteleria() {
 
       howTitle: 'How we work',
       howText1:
-        'We work with a closed selection of cakes. We can customize recipes and adapt flavors to each menu. We like to create.',
+        'Collaborating with us means offering products that combine tradition, creativity, and the authentic taste of the Canary Islands. We carefully select each of our cakes to provide only the very best.',
       howText2:
-        'If a cake enters your menu, it does so exactly as it was conceived. Because it works. And because it doesn’t need tweaking.',
+        'We can also customize recipes and adapt flavors to your menu, because we love to create and surprise.',
 
       expectTitle: 'What you can expect',
-      expectText1: 'Consistency. Stability. Recognizable product.',
+      expectText1: 'Consistency in every order. Recognizable quality and flavor.',
       expectText2:
-        'And the peace of mind of serving something you can stand behind without explanations.',
+        'Peace of mind when serving a product you know works, because it was designed to impress.',
 
       closeTitle: 'If this feels right, let’s talk.',
       closeText:
@@ -178,9 +181,12 @@ export default function Hosteleria() {
     <main className="bg-[#FFF7EC] text-[#1A1A1A] font-inter">
       {/* HERO */}
       <section className="px-6 md:px-20 py-32 text-center">
-        <h1 className="font-fraunces text-5xl md:text-7xl leading-tight max-w-4xl mb-10 mx-auto">
+        <h1 className="text-5xl md:text-7xl leading-tight max-w-4xl mb-10 mx-auto">
           {copy[lang].heroTitle}
         </h1>
+        <h2 className="text-2xl md:text-3xl leading-tight max-w-4xl mb-10 mx-auto">
+          {copy[lang].heroSubtitle}
+        </h2>
         <p className="text-lg md:text-xl max-w-2xl mx-auto">
           {copy[lang].heroText}
         </p>

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
 export const tartasMetadata: Metadata = {
-  title: 'Nuestras tartas',
+  title: 'Nuestras Cheesecakes',
   description:
     'Descubre las tartas de queso Cookordie. Recetas propias, personalidad y cero concesiones.',
 
@@ -10,7 +10,7 @@ export const tartasMetadata: Metadata = {
   },
 
   openGraph: {
-    title: 'Nuestras tartas · Cookordie',
+    title: 'Nuestras Cheesecakes · Cookordie',
     description:
       'Descubre las tartas de queso Cookordie. Recetas propias, personalidad y cero concesiones.',
     url: 'https://cookordiebakery.com/tartas',

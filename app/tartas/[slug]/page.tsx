@@ -17,7 +17,7 @@ const tartas = {
       nombre: 'Nivel Dios',
       subtitulo: 'La original. La intocable. La que lo empezó todo.',
       descripcion:
-        'Nuestra tarta más icónica. Queso de cabra ahumado, carácter desde el primer bocado y una profundidad de sabor que no pide permiso. Es la referencia interna. La que usamos para medirlo todo. Y sí, también es la mejor de la carta.',
+        'Queso semicurado ahumado de cabra de Valsequillo. Clásica y absolutamente inolvidable.',
       perfil: ['Intensa', 'Ahumada', 'Adictiva', 'Sin concesiones'],
       precios: {
         mediana: 20,
@@ -28,7 +28,7 @@ const tartas = {
       nombre: 'Nivel Dios',
       subtitulo: 'The original. Untouchable. Where it all started.',
       descripcion:
-        'Our most iconic cake. Smoked goat cheese, character from the first bite and a depth of flavor that doesn’t ask for permission. It’s our internal benchmark. And yes, it’s the best one on the menu.',
+        'Smoked semi-cured goat cheese from Valsequillo. Classic and absolutely unforgettable.',
       perfil: ['Intense', 'Smoky', 'Addictive', 'No compromises'],
       precios: {
         mediana: 20,
@@ -42,7 +42,7 @@ const tartas = {
       nombre: 'Top Secret',
       subtitulo: 'Pistacho sin censura.',
       descripcion:
-        'Crema de pistacho dentro, crema de pistacho fuera y pistachos triturados rematando. No hay truco, no hay distracción: solo pistacho del bueno y una textura que engancha más de lo que debería.',
+        'Base de galleta Lotus, crema de queso y pistacho en su interior, decorada con crema de pistacho y pistachos semitriturados.',
       perfil: ['Untuosa', 'Profunda', 'Elegante', 'Obsesiva'],
       precios: {
         mediana: 30,
@@ -53,7 +53,7 @@ const tartas = {
       nombre: 'Top Secret',
       subtitulo: 'Uncensored pistachio.',
       descripcion:
-        'Pistachio cream inside, pistachio cream outside, finished with crushed pistachios. No tricks, no distractions.',
+        'Lotus biscuit base, cream cheese and pistachio inside, decorated with pistachio cream and semi-crushed pistachios.',
       perfil: ['Creamy', 'Deep', 'Elegant', 'Obsessive'],
       precios: {
         mediana: 30,
@@ -67,7 +67,7 @@ const tartas = {
       nombre: 'La Romántica',
       subtitulo: 'Lotus, pero bien hecho.',
       descripcion:
-        'Rellena de crema de Lotus, media superficie cubierta con más crema y galleta Lotus triturada, y un rayado de crema por toda la tarta. Dulce, sí. Empalagosa, jamás.',
+        'Base de galleta Lotus, queso crema y crema Lotus con galleta escarchada.',
       perfil: ['Dulce', 'Sedosa', 'Reconfortante', 'Peligrosa'],
       precios: {
         mediana: 25,
@@ -78,7 +78,7 @@ const tartas = {
       nombre: 'La Romántica',
       subtitulo: 'Lotus, done properly.',
       descripcion:
-        'Filled with Lotus cream, half covered with more cream and crushed biscuits, finished with a drizzle across the cake.',
+        'Lotus biscuit base, cream cheese and Lotus cream with frosted biscuit pieces.',
       perfil: ['Sweet', 'Silky', 'Comforting', 'Dangerous'],
       precios: {
         mediana: 25,
@@ -92,7 +92,7 @@ const tartas = {
       nombre: 'La Chocolatada',
       subtitulo: 'Para los que no se controlan.',
       descripcion:
-        'Rellena de Nutella, cubierta de Nutella y rematada con chocolate blanco rallado. No es sutil. No pretende serlo.',
+        'Crema de queso y chocolate cremoso sobre base de galleta Lotus con mantequilla. Decorada con nutella y chocolate blanco rallado.',
       perfil: ['Golosa', 'Densa', 'Explosiva', 'Sin remordimientos'],
       precios: {
         mediana: 25,
@@ -103,7 +103,7 @@ const tartas = {
       nombre: 'La Chocolatada',
       subtitulo: 'For those with no self-control.',
       descripcion:
-        'Filled with Nutella, topped with Nutella and finished with grated white chocolate.',
+        'Cream cheese and creamy chocolate on a Lotus biscuit base with butter. Decorated with Nutella and grated white chocolate.',
       perfil: ['Indulgent', 'Dense', 'Explosive', 'No regrets'],
       precios: {
         mediana: 25,
@@ -117,7 +117,7 @@ const tartas = {
       nombre: 'La Azulita',
       subtitulo: 'Queso azul. Sin anestesia.',
       descripcion:
-        'Tarta de queso azul sin base de galleta. Estilo vasca, pero con carácter.',
+        'Cremoso queso azul, sin base. Para quienes disfrutan del sabor con intensidad.',
       perfil: ['Salvaje', 'Intensa', 'Seria', 'No negociable'],
       precios: {
         mediana: 20,
@@ -128,7 +128,7 @@ const tartas = {
       nombre: 'La Azulita',
       subtitulo: 'Blue cheese. No anesthesia.',
       descripcion:
-        'Blue cheese cheesecake with no biscuit base. Basque style, full character.',
+        'Creamy blue cheese, no base. For those who enjoy bold, intense flavor.',
       perfil: ['Wild', 'Intense', 'Serious', 'Non-negotiable'],
       precios: {
         mediana: 20,
@@ -142,7 +142,7 @@ const tartas = {
       nombre: 'La Cocoloco',
       subtitulo: 'Dulce de leche y cero control.',
       descripcion:
-        'Rellena de dulce de leche y cubierta con más dulce de leche y coco rallado.',
+        'Corazón de dulce de leche, cubierta por una capa de dulce de leche y ralladura de coco.',
       perfil: ['Tropical', 'Melosa', 'Adictiva', 'Descarada'],
       precios: {
         mediana: 25,
@@ -153,7 +153,7 @@ const tartas = {
       nombre: 'La Cocoloco',
       subtitulo: 'Dulce de leche, zero control.',
       descripcion:
-        'Filled with dulce de leche and topped with more dulce de leche and shredded coconut.',
+        'Dulce de leche center, covered with a layer of dulce de leche and shredded coconut.',
       perfil: ['Tropical', 'Sticky', 'Addictive', 'Bold'],
       precios: {
         mediana: 25,
@@ -167,7 +167,7 @@ const tartas = {
       nombre: 'La de Fuera',
       subtitulo: 'Idiazábal. Oveja. Beruete. Respeto.',
       descripcion:
-        'Queso Idiazábal de oveja de Beruete. Es la prima seria de la Nivel Dios.',
+        'Queso Idiazábal de Beruete, premiado por su excelencia.',
       perfil: ['Profunda', 'Elegante', 'Larga', 'De culto'],
       precios: {
         mediana: 25,
@@ -178,7 +178,7 @@ const tartas = {
       nombre: 'La de Fuera',
       subtitulo: 'Idiazábal. Sheep. Beruete. Respect.',
       descripcion:
-        'Sheep’s milk Idiazábal cheese from Beruete. The serious cousin of Nivel Dios.',
+        'Idiazábal cheese from Beruete, awarded for its excellence.',
       perfil: ['Deep', 'Elegant', 'Long finish', 'Cult'],
       precios: {
         mediana: 25,
@@ -186,12 +186,13 @@ const tartas = {
       },
     },
   },
+
   'la-dubai': {
     es: {
       nombre: 'La Dubái',
       subtitulo: 'Chocolate, lujo y cero modestia.',
       descripcion:
-        'Base crujiente de galleta, delicado queso cremoso y el exquisito chocolate de Dubái. Una combinación irresistible que hará vibrar todos tus sentidos.',
+        'Queso cremoso, chocolate de Dubái y base crujiente de galleta.',
       perfil: ['Chocolate', 'Golosa', 'Intensa', 'Excesiva'],
       precios: {
         mediana: 35,
@@ -202,7 +203,7 @@ const tartas = {
       nombre: 'La Dubai',
       subtitulo: 'Chocolate, luxury and zero modesty.',
       descripcion:
-        'A crunchy biscuit base, silky cream cheese and the finest Dubai chocolate. An irresistible combination designed to hit every single sense.',
+        'Creamy cheese, Dubai chocolate, and a crunchy biscuit base.',
       perfil: ['Chocolate', 'Indulgent', 'Intense', 'Excessive'],
       precios: {
         mediana: 35,
@@ -216,7 +217,7 @@ const tartas = {
       nombre: 'La Uh Mami',
       subtitulo: 'Dulce, salada y peligrosamente equilibrada.',
       descripcion:
-        'Relleno de shiro miso integrado en una base cremosa y delicada. El contraste se remata con un topping de crumble de té matcha y chocolate blanco rallado No es una tarta evidente. Es profunda. elegante y sorprendente. Cuando lo entiendes, ya es tarde.',
+        'Shiro miso dulce, crumble de té matcha y ralladura de chocolate blanco.',
       perfil: ['Umami', 'Equilibrada', 'Elegante', 'Adictiva'],
       precios: {
         mediana: 28,
@@ -227,7 +228,7 @@ const tartas = {
       nombre: 'La Uh Mami',
       subtitulo: 'Sweet, salty and dangerously balanced.',
       descripcion:
-        'Shiro miso blended into a smooth, delicate cheesecake base. Finished with a topping of matcha tea crumble and grated white chocolate. This is not an obvious cake. It´s deep, elegant and surprising. Once you get it, it´s already too late.',
+        'Sweet Shiro miso, matcha tea crumble and white chocolate shavings.',
       perfil: ['Umami', 'Balanced', 'Elegant', 'Addictive'],
       precios: {
         mediana: 28,

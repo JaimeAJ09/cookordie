@@ -46,17 +46,20 @@ export default function Home() {
 
   const copy = {
     es: {
-      heroTitle: 'No hacemos tartas de queso.',
-      heroAccent: 'Creamos adicción.',
+      heroTitle: 'Cheesecakes para sobremesas',
+      heroAccent: 'que no quieren terminar',
       heroText:
-        'Bienvenido a Cookordie. Recetas propias, actitud sin filtros y tartas que no se olvidan.',
-      heroButton: 'Descubre nuestras tartas',
+        'En Cookordie hacemos cheesecakes con ingredientes de primera, exploramos nuevos sabores y celebramos contigo tus mejores momentos.',
+      heroButton: 'Descubre nuestras Cheesecakes',
 
-      manifestoTitle: 'Esto no va de postres.',
+      manifestoTitle: 'Los mejores momentos suceden alrededor de una mesa.',
       manifestoText:
-        'Va de obsesión por el detalle. De recetas que no copiamos. De probar, fallar, ajustar y repetir hasta que sea perfecto. Va de personalidad. Y de no hacer nada que no nos comeríamos nosotros.',
+        'Cuando la cena termina y la conversación sigue fluyendo. Cuando alguien sonríe y pregunta: “Bueno, ¿y el postre?”',
 
-      cakesTitle: 'Nuestras tartas',
+      whoWeAreTitle: 'Quiénes somos' , 
+      whoWeAreText: 'Somos un equipo pequeño que cree en las sobremesas que se alargan y en la importancia de compartir momentos dulces con quienes más queremos. No hacemos tartas. Creamos recuerdos que se comparten.Cada cheesecake es la herencia de nuestro queridísimo Javi: del cuidado por los detalles, de la pasión por la cocina y del amor por reunir a la gente. Eso se nota en cada tarta que llega a tu mesa.',
+
+      cakesTitle: 'Nuestras cheesecakes',
 
       cakes: [
         {
@@ -78,17 +81,21 @@ export default function Home() {
     },
 
     en: {
-      heroTitle: "We don’t make cheesecake.",
-      heroAccent: 'We create addiction.',
+      heroTitle: "Cheesecakes for after-dinners",
+      heroAccent: 'that you never want to end',
       heroText:
-        'Welcome to Cookordie. Original recipes, zero filters, and cakes you won’t forget.',
-      heroButton: 'Discover our cakes',
+        'At Cookordie we make cheesecakes with top-quality ingredients, explore new flavors, and celebrate your best moments with you.',
+      heroButton: 'Discover our cheesecakes',
 
-      manifestoTitle: 'This is not about desserts.',
+      manifestoTitle: 'The best moments happen around a table.',
       manifestoText:
-        'It’s about obsession with detail. Recipes we don’t copy. Testing, failing, adjusting and repeating until it feels right. It’s about personality. And never serving something we wouldn’t eat ourselves.',
+        'When dinner ends but the conversation keeps flowing. When someone smiles and asks, “So… what about dessert?”',
 
-      cakesTitle: 'Our cakes',
+      whoWeAreTitle: 'Who we are' , 
+      whoWeAreText: 'We are a small team that believes in long, lingering after-dinners and in the importance of sharing sweet moments with the people we love most. We don’t just make cakes. We create memories meant to be shared. Each cheesecake carries the legacy of our beloved Javi: a care for details, a passion for cooking, and a love for bringing people together. You can taste it in every cake that reaches your table.',
+
+
+      cakesTitle: 'Our cheesecakes',
 
       cakes: [
         {
@@ -170,6 +177,15 @@ export default function Home() {
         </h2>
         <p className="max-w-3xl mx-auto text-lg leading-relaxed">
           {copy[lang].manifestoText}
+        </p>
+      </section>
+
+      <section className="px-6 md:px-20 py-24 bg-[#FFF7EC] text-center pt-0">
+        <h2 className="font-fraunces text-4xl md:text-5xl mb-6">
+          {copy[lang].whoWeAreTitle}
+        </h2>
+        <p className="max-w-3xl mx-auto text-lg leading-relaxed">
+          {copy[lang].whoWeAreText}
         </p>
       </section>
 
