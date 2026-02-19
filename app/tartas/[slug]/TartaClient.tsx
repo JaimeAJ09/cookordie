@@ -41,7 +41,7 @@ export default function TartaClient({ tarta, slug }: Props) {
     small: 'Pequeña (12 cm)',
     onlyHospitality: 'Sólo bares y restaurantes.',
     minOrder: '(Pedido mínimo de 10)',
-    historyCta: 'Conoce la historia',
+    historyCta: 'Nuestra historia',
     hospitalityCta: 'Partners',
     currency: '€',
     /*COPY CTA PEDIDO*/
@@ -56,7 +56,7 @@ export default function TartaClient({ tarta, slug }: Props) {
     small: 'Small (12 cm)',
     onlyHospitality: 'Only for bars and restaurants.',
     minOrder: '(Minimum order of 10)',
-    historyCta: 'Discover the story',
+    historyCta: 'Our story',
     hospitalityCta: 'Partners',
     currency: '€',
     /*COPY CTA PEDIDO*/
