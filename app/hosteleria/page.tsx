@@ -184,7 +184,7 @@ export default function Hosteleria() {
         <h1 className="text-5xl md:text-7xl leading-tight max-w-4xl mb-10 mx-auto">
           {copy[lang].heroTitle}
         </h1>
-        <h2 className="text-2xl md:text-3xl leading-tight max-w-4xl mb-10 mx-auto">
+        <h2 className="text-[#8C1D18] text-2xl md:text-3xl leading-tight max-w-4xl mb-10 mx-auto">
           {copy[lang].heroSubtitle}
         </h2>
         <p className="text-lg md:text-xl max-w-2xl mx-auto">
